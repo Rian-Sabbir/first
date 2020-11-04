@@ -1,0 +1,89 @@
+*{margin:0; padding:0;}
+body{font-family:arial; font-size:15px; line-height:25px;background: #e6e6e65e;}
+
+/*TOP SECTION CSS IS GIVE BELOW*/
+#paddingRightIcons{padding-right:6px;}
+#topSection{background: #f15925; overflow: hidden; padding: 10px 0; color: #ffffffc7; font-family: sans-serif; letter-spacing: 0.2px;}
+#welcomeDiv {width:300px; float:left;}
+#welcomeDiv p{}
+#thenWelcomeDescriptionDiv{width:654px; float:right;}
+#thenWelcomeDescriptionDiv p{display:inline;padding: 0 15px;}
+#inlineBlockingDiv{display:inline block}
+
+
+/*MAIN MENU CSS IS GIVEN BELOW*/
+#primary_menu{list-style:none;}
+#primary_menu li{float:left; position:relative; z-index:1;}
+#primary_menu li a{color:#040404a6; font-weight:bold; text-decoration:none; padding:17px 17px; display: block;font-size:14px}
+#primary_menu li a:hover{ color:#f15925;}
+#mainNav{width:100%; background:#ffffff;  display: table; }
+.displaySize{width:1170px; margin:auto; }
+img{width:100%;}
+#logoDiv{width:173px; float:left; padding: 4px 0px;}
+#logoDiv img{margin-bottom:-30px;}
+#menuContainer{width:564px; float:right;}
+
+
+/*DROPDOWN MENU CSS IS GIVEN BELOW*/
+#sub_menu{list-style:none; background: #ffffff;width: 340px;position: absolute; top: 59px;border: 1px solid #00000017;border-top: 2px solid #f15925;          /*transform:scaleY(0);transform-origin:top;opacity:0;transition:all 0.5s;*/}
+#sub_menu li{float:none;z-index: 5;}
+/*#primary_menu li:hover #sub_menu {transform:scaleY(1);opacity:1;} */
+#sub_menu li a{ color: #1d1a1ac7;padding: 8px 19px;border-bottom: 1px solid #0000000d;}
+.myMenu{display:none}
+.showMenu{display:block}
+
+
+
+
+/*SLIDER CSS IS GIVEN BELOW*/
+#sizeDivSlider{height:500px;}		 
+#sliderPictureDiv{position:relative; }		 
+.pictureDiv{position: absolute;opacity:0; width:100%; transition:all 4s;}		 
+.pictureDiv	img{width:100%;height:500px;}
+.active{opacity:1;}	 
+
+
+/* SECTION TITLE CSS IS GIVEN BELOW*/
+#service_block{ background:#f9f9f9de; border: 1px solid #00000003; width:335px; padding:15px; overflow:hidden; line-height:20px; display:inline-block; margin: 10px; border:1px solid #ddd; border-radius:3px; overflow:hidden;}
+#service_block:hover{background:transparent; color:white; cursor:pointer; transform:translateY(-10px); transition:all 1s;  }
+#service_block:hover i{ color:white;   transition:all 1s;    }
+#service_block:hover h2{ color:white;  transition:all 1s;        }
+#service_block i{transition:all 1s}
+#service_block h2{transition:all 1s}
+#section_title{text-align:center; color: white;font-size: 30px;margin-bottom: 40px; margin-top: 40px;}
+#section_title h1 span {color: #f15925;}
+#about_us #section_title h1{color: black;}
+#rightContent{width: 250px; float:right;}
+#leftIcon{width:70px; font-size:35px; float: left; margin-left: 11px;}
+#leftIcon i {color: #f15925;}
+#leftIcon,#rightContent{display:inline-block;}
+#rightContent h2{padding-bottom: 15px;color: #595a5b; }
+#rightContent p{ font-size:13px;}
+#allBlocks{width:1170px; margin:auto; padding: 20px 0px;  overflow:hidden;}
+#service_section{background: #030506a8;}
+section{ overflow: hidden;width: 100%;}
+#aboutImage{width:400px; border: 3px solid #ddd; background: #ddd; box-shadow: 1px 20px 21px -19px #100000d1;}
+#aboutRight{width:700px; float:right;}
+#aboutImage, #aboutRight{display:inline-block;}
+#about_contents_all{padding:30px 0px;}
+#aboutRight h2 { margin-bottom: 25px; border-bottom: 2px solid #0a00001a; padding-bottom: 3px;}
+#aboutRight p { font-size:16px;color:#999;}
+
+
+/*FOOTER SINGLE CSS IS GIVEN BELOW*/
+#footerSingle{background:#333; color:white; text-align:center; font-size:18px;}
+
+
+/*FOOTER DOUBLE CSS IS GIVEN BELOW*/
+#footerDouble{ background:#173f5a; padding:30px 0px; color:white; font-family: sans-serif; display: table; width: 100%;        }
+#footerDouble h2 { text-transform: uppercase; font-size: 15px; font-family: arial; font-weight:bold; border-bottom: 1px solid #ffffff7a; margin-bottom: 16px; padding-bottom: 5px;}
+.footerBlock{width:250px; float: left; overflow: hidden;color: #ffffffe3; display:inline-block; padding: 0 21px; }
+#footerDouble p{font-size:14px;}
+.subscribeForm input {width: 100%; padding: 5px; margin: 5px 0px;}
+input#subscribeButton { background: #f15925;color: #ffffffc7;border-color: #ea460d; padding: 6px;border: 3px solid #f15925;}
+#custom_menu{list-style:none;}
+#custom_menu li{width:100%; line-height:25px;border-bottom: 1px solid #20689887;}
+#custom_menu li:last-child{border:none;}
+#custom_menu li:hover a{text-decoration:underline;}
+#custom_menu li a{color:#ffffffe3; text-decoration:none;}
+.subscribeForm {overflow: hidden;}
